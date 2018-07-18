@@ -1,0 +1,279 @@
+{
+  "base": {
+    "range": "这是数据mock中的range",
+    "string": "@string(7, 20)",
+    "character": "@character('abcde')",
+    "float": "@float(60, 100)",
+    "integer": "@integer(60, 100)",
+    "natural": "@natural(60, 100)",
+    "boolean": "@boolean"
+  },
+  "menu": {
+    "home": {
+      "id": "home",
+      "icon": "static/images/home.png",
+      "name": "首页"
+    },
+    "lesson": {
+      "id": "lesson",
+      "icon": "static/images/lesson.png",
+      "name": "课程"
+    },
+    "other": {
+      "id": "other",
+      "icon": "static/images/home.png",
+      "name": "其他"
+    },
+    "my": {
+      "id": "my",
+      "icon": "static/images/home.png",
+      "name": "我的"
+    }
+  },
+  "Navigation": {
+    "section1": {
+      "name": "教师",
+      "id": "teacher",
+      "icon": "./images/teacher.png"
+    },
+    "section2": {
+      "name": "学历",
+      "id": "degree",
+      "icon": "./images/degree.png"
+    }
+  },
+  "Teacher": {
+    "Banner": {
+      "banner01": {
+        "id": "banner01",
+        "name": "banner01",
+        "src": "images/banner01.jpg"
+      },
+      "banner02": {
+        "id": "banner02",
+        "name": "banner02",
+        "src": "./images/banner02.jpg"
+      }
+    },
+    "icon":{
+      "diamond": "◆",
+      "circle": "●"
+    },
+    "Main":{
+      "h1":"热门班型介绍"
+    },
+    "Lesson":{
+      "class01":{
+        "name":"笔试精讲班",
+        "sell":"$1980",
+        "img":"http://localhost:8080/static/images/class01.png",
+        "introduction":{
+          "content1":{
+            "index":"①",
+            "root":"笔试课程",
+            "content":"笔试科目基础知识 + 梳理串讲"
+          },
+          "content2": {
+            "index": "②",
+            "root": "【中学】学科知识课程",
+            "content": "学科知识（科目三）【中学】 + 学科知识（科目三）教案设计【中学】"
+          },
+          "content3": {
+            "index": "③",
+            "root": "超值赠送",
+            "content": "班主任必修课 + 高频错题解析课"
+          },
+          "content4": {
+            "index": "④",
+            "root": "教辅资料",
+            "content": "独家教材 + 高频考点 + 冲刺串讲 + 智能题库"
+          }
+        }
+      },
+      "class02": {
+        "name": "3VS1精英实战班",
+        "sell": "$2980",
+        "img":"http://localhost:8080/static/images/class02.png",
+        "introduction": {
+          "content1": {
+            "index": "",
+            "root": "笔试精讲班",
+            "content": "包含笔试精讲班内容"
+          },
+          "content2": {
+            "index": "①",
+            "root": "面试课程",
+            "content": "《面试》基础理论精讲 + 3对1VIP预约真人演练 + 面试精品课（中学/小学） + 面试精品课（幼儿园）"
+          },
+          "content3": {
+            "index": "②",
+            "root": "百度钱包",
+            "content": "百度钱包金融公司提供无息分期服务"
+          }
+        }
+      },
+      "class03": {
+        "name": "私播专享班",
+        "sell": "$4980",
+        "img":"http://localhost:8080/static/images/class03.png",
+        "introduction": {
+          "content1": {
+            "index": "",
+            "root": "笔试精讲班 + 3VS1精英实战班",
+            "content": "包含笔试精讲班 + 3VS1精英实战班内容"
+          },
+          "content2": {
+            "index": "①",
+            "root": "笔试课程",
+            "content": "模拟演练 + 笔试私播"
+          },
+          "content3": {
+            "index": "②",
+            "root": "PICC",
+            "content": "PICC不过退费保险服务"
+          }
+        }
+      }
+    },
+    "Question": {
+      "1": {
+        "time": "",
+        "content": "报名时间是什么时候"
+      },
+      "2": {
+        "time": "",
+        "content": "教师资格证什么时候考试？"
+      },
+      "3": {
+        "time": "",
+        "content": "教师资格证网上报名包括哪些流程？"
+      },
+      "4": {
+        "time": "",
+        "content": "教师资格证考试学科注意事项？"
+      },
+      "5": {
+        "time": "",
+        "content": "教师资格证考试难度大吗？"
+      },
+      "6": {
+        "time": "",
+        "content": "教师资格证最近一次考证在什么时候？"
+      },
+      "7": {
+        "time": "",
+        "content": "教师资格证各科中怎么掌握重点？"
+      },
+      "8": {
+        "time": "",
+        "content": "关于教师资格证考试的有关问题的通知？"
+      }
+    }
+  },
+  "Degree": {
+    "Banner": {
+      "banner01": {
+        "id": "banner01",
+        "name": "banner01",
+        "src": "images/banner01.jpg"
+      },
+      "banner02": {
+        "id": "banner02",
+        "name": "banner02",
+        "src": "./images/banner02.jpg"
+      }
+    },
+    "icon": {
+      "diamond": "◆",
+      "circle": "●"
+    },
+    "Main": {
+      "h1": "热门班型介绍"
+    },
+    "Lesson": {
+      "class01": {
+        "name": "教资学历精品班",
+        "sell": "$6800",
+        "img": "http://localhost:8080/static/images/class04.png",
+        "introduction": {
+          "content1": {
+            "index": "①",
+            "root": "《普通话》课程", 
+            "content": "考试概述、语音训练，学习技巧"
+          },
+          "content2": {
+            "index": "②",
+            "root": "笔试课程",
+            "content": "笔试科目基础知识 + 梳理串讲 + 模拟演练"
+          },
+          "content3": {
+            "index": "③",
+            "root": "面试课程",
+            "content": "《面试》基础理论精讲 + 3对1VIP预约真人演练 + 面试精品课"
+          },
+          "content4": {
+            "index": "④",
+            "root": "学科知识课程",
+            "content": "学科知识（科目三） + 学科知识（科目三）教案设计"
+          },
+          "content5": {
+            "index": "⑤",
+            "root": "超值赠送",
+            "content": "班主任必修课 + 教学能力实训课程 + 高频错题解析课"
+          },
+          "content6": {
+            "index": "",
+            "root": "汉语言文学模块",
+            "content": "各科基础知识点详解 + 重要考点串讲"
+          }
+        }
+      },
+      "class02": {
+        "name": "教资学历题海班",
+        "sell": "$9800",
+        "img": "http://localhost:8080/static/images/class05.png",
+        "introduction": {
+          "content1": {
+            "index": "①",
+            "root": "《教资学历精品班》班型 + 大量尚德内部题海",
+            "content": "尚德内部题海 + 历年真题讲解"
+          }
+        }
+      }
+    },
+    "Question": {
+      "1": {
+        "time": "",
+        "content": "报名时间是什么时候"
+      },
+      "2": {
+        "time": "",
+        "content": "教师资格证什么时候考试？"
+      },
+      "3": {
+        "time": "",
+        "content": "教师资格证网上报名包括哪些流程？"
+      },
+      "4": {
+        "time": "",
+        "content": "教师资格证考试学科注意事项？"
+      },
+      "5": {
+        "time": "",
+        "content": "教师资格证考试难度大吗？"
+      },
+      "6": {
+        "time": "",
+        "content": "教师资格证最近一次考证在什么时候？"
+      },
+      "7": {
+        "time": "",
+        "content": "教师资格证各科中怎么掌握重点？"
+      },
+      "8": {
+        "time": "",
+        "content": "关于教师资格证考试的有关问题的通知？"
+      }
+    }
+  }
+}
