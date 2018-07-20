@@ -5,7 +5,7 @@
     <swiper :options="swiperOption" class="swiper-radius">
       <swiper-slide>
         <!-- <img :src="bannerImg01" alt="" class="banner-img"> -->
-        <img src="./images/banner01.jpg" alt="" class="banner-img">
+        <img src="./images/banner02.jpg" alt="" class="banner-img">
       </swiper-slide>
       <swiper-slide>
         <!-- <img :src="bannerImg01" alt="" class="banner-img"> -->
@@ -100,15 +100,15 @@ export default {
     }
   },
   created () { // mock数据
-    this.$axios.get('/api/Teacher').then(res => {
+    this.$axios.get('/js/data.json').then(res => {
       this.teacherData = res.data
-      this.bannerImg01 = res.data.data.Banner.banner01.src
-      this.maintitle = res.data.data.Main.h1
-      this.class01 = res.data.data.Lesson.class01
-      this.lesson = res.data.data.Lesson
-      this.question = res.data.data.Question
-      this.icon = res.data.data.icon
-      // console.log(res.data) // 测试是否成功
+      this.bannerImg01 = res.data.Teacher.Banner.banner01.src
+      this.maintitle = res.data.Teacher.Main.h1
+      this.class01 = res.data.Teacher.Lesson.class01
+      this.lesson = res.data.Teacher.Lesson
+      this.question = res.data.Teacher.Question
+      this.icon = res.data.Teacher.icon
+      console.log(res.data) // 测试是否成功
     })
   },
   components: {

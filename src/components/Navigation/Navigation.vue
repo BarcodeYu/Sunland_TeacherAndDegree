@@ -1,7 +1,7 @@
 <template>
   <div id="Navigation" class="navigation">
     <ul class="menu">
-      <li v-for="(sec,index) in navigation.data" :key="index" @click="active_class(sec)">
+      <li v-for="(sec,index) in navigation" :key="index" @click="active_class(sec)">
         <div :class="{section1:index==section1,section2:index==section2,
         section1_active:index==section1_active,section2_active:index==section2_active}" class="icon"></div>
         <p>{{sec.name}}</p>
@@ -23,8 +23,8 @@ export default {
     }
   },
   created () { // mock数据
-    this.$axios.get('/api/Navigation').then(res => {
-      this.navigation = res.data
+    this.$axios.get('/js/data.json').then(res => {
+      this.navigation = res.data.Navigation
       // console.log(res.data.data.section1) // 测试是否成功
     })
   },

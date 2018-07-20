@@ -38,12 +38,12 @@ export default {
     }
   },
   created () { // mock数据
-    this.$axios.get('/api/Degree').then(res => {
-      this.degreeBanner = res.data.data.Banner.banner01.src
-      this.degreeicon = res.data.data.icon.diamond
-      this.degreeMain = res.data.data.Main
-      this.degreeLesson = res.data.data.Lesson
-      // console.log(res.data.data.Lesson) // 测试是否成功
+    this.$axios.get('/js/data.json').then(res => {
+      this.degreeBanner = res.data.Degree.Banner.banner01.src
+      this.degreeicon = res.data.Degree.icon.diamond
+      this.degreeMain = res.data.Degree.Main
+      this.degreeLesson = res.data.Degree.Lesson
+      // console.log(res.data) // 测试是否成功
     })
   }
 }

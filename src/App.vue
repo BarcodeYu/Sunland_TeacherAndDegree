@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-header></v-header>
+    <!-- <v-header></v-header> -->
     <v-navigation  @popTeacher="setTeacher()" @popDegree="setDegree()"></v-navigation>
     <v-teacher v-if="isTeacher"></v-teacher>
     <v-degree v-if="isDegree"></v-degree>
@@ -22,7 +22,7 @@ export default {
     }
   },
   created () { // mock数据
-    this.$axios.get('/api/Navigation').then(res => {
+    this.$axios.get('/js/data.json').then(res => {
       // console.log(res.data) // 测试是否成功
     })
   },

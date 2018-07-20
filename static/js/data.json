@@ -55,23 +55,23 @@
         "src": "./images/banner02.jpg"
       }
     },
-    "icon":{
+    "icon": {
       "diamond": "◆",
       "circle": "●"
     },
-    "Main":{
-      "h1":"热门班型介绍"
+    "Main": {
+      "h1": "热门班型介绍"
     },
-    "Lesson":{
-      "class01":{
-        "name":"笔试精讲班",
-        "sell":"$1980",
-        "img":"images/class01.png",
-        "introduction":{
-          "content1":{
-            "index":"①",
-            "root":"笔试课程",
-            "content":"笔试科目基础知识 + 梳理串讲"
+    "Lesson": {
+      "class01": {
+        "name": "笔试精讲班",
+        "sell": "$1980",
+        "img": "images/class01.png",
+        "introduction": {
+          "content1": {
+            "index": "①",
+            "root": "笔试课程",
+            "content": "笔试科目基础知识 + 梳理串讲"
           },
           "content2": {
             "index": "②",
@@ -93,7 +93,7 @@
       "class02": {
         "name": "3VS1精英实战班",
         "sell": "$2980",
-        "img":"images/class02.png",
+        "img": "images/class02.png",
         "introduction": {
           "content1": {
             "index": "",
@@ -115,7 +115,7 @@
       "class03": {
         "name": "私播专享班",
         "sell": "$4980",
-        "img":"images/class03.png",
+        "img": "images/class03.png",
         "introduction": {
           "content1": {
             "index": "",
@@ -198,7 +198,7 @@
         "introduction": {
           "content1": {
             "index": "①",
-            "root": "《普通话》课程", 
+            "root": "《普通话》课程",
             "content": "考试概述、语音训练，学习技巧"
           },
           "content2": {
